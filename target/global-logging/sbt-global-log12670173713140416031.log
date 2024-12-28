@@ -1,0 +1,94 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\barkm\AppData\Local\Temp\idea4.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\barkm\AppData\Local\Temp\idea4.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.10.1 (Oracle Corporation Java 23.0.1)
+[debug] Load.defaultLoad until apply took 145.5902ms
+[debug]           Load.loadUnit: plugins took 162.7006ms
+[debug]           Load.loadUnit: defsScala took 0.2817ms
+[debug] [Loading] Scanning directory C:\Users\Marks-Desktop\Coding\scala-snake-game\project
+[debug]             Load.loadUnit: mkEval took 9.5304ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Marks-Desktop\Coding\scala-snake-game\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 21.4962 ms
+[info] loading settings for project scala-snake-game-build from idea4.sbt ...
+[debug]               Load.resolveProject(scala-snake-game-build) took 47.3189ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id scala-snake-game-build, base: C:\Users\Marks-Desktop\Coding\scala-snake-game\project, plugins: List(<none>))) took 93.6854ms
+[debug] [Loading] Done in C:\Users\Marks-Desktop\Coding\scala-snake-game\project, returning: (scala-snake-game-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 395.4423ms
+[debug]           Load.loadUnit: cleanEvalClasses took 17.2688ms
+[debug]         Load.loadUnit(file:/C:/Users/Marks-Desktop/Coding/scala-snake-game/project/, ...) took 586.6109ms
+[debug]       Load.apply: load took 788.9701ms
+[debug]       Load.apply: resolveProjects took 9.6074ms
+[debug]       Load.apply: finalTransforms took 112.1259ms
+[debug]       Load.apply: config.delegates took 16.6518ms
+[debug]       Load.apply: Def.make(settings)... took 688.8146ms
+[debug]       Load.apply: structureIndex took 178.1856ms
+[debug]       Load.apply: mkStreams took 2.7032ms
+[info] loading project definition from C:\Users\Marks-Desktop\Coding\scala-snake-game\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 3056.7546ms
+[debug]     Load.loadUnit: defsScala took 0.0118ms
+[debug] [Loading] Scanning directory C:\Users\Marks-Desktop\Coding\scala-snake-game
+[debug]       Load.loadUnit: mkEval took 0.3525ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Marks-Desktop\Coding\scala-snake-game, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.307 ms
+[info] loading settings for project scala-snake-game from build.sbt ...
+[debug]         Load.resolveProject(scala-snake-game) took 57.2684ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id scala-snake-game, base: C:\Users\Marks-Desktop\Coding\scala-snake-game, plugins: List(<none>))) took 60.6096ms
+[debug] [Loading] Done in C:\Users\Marks-Desktop\Coding\scala-snake-game, returning: (scala-snake-game)
+[debug]     Load.loadUnit: loadedProjectsRaw took 3308.7192ms
+[debug]     Load.loadUnit: cleanEvalClasses took 48.5319ms
+[debug]   Load.loadUnit(file:/C:/Users/Marks-Desktop/Coding/scala-snake-game/, ...) took 6417.7641ms
+[debug] Load.apply: load took 6471.8517ms
+[debug] Load.apply: resolveProjects took 0.4471ms
+[debug] Load.apply: finalTransforms took 80.1651ms
+[debug] Load.apply: config.delegates took 2.275ms
+[debug] Load.apply: Def.make(settings)... took 255.0874ms
+[debug] Load.apply: structureIndex took 136.8694ms
+[debug] Load.apply: mkStreams took 0.0034ms
+[info] set current project to scalafx-playground (in build file:/C:/Users/Marks-Desktop/Coding/scala-snake-game/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(idea-shell, None, None)

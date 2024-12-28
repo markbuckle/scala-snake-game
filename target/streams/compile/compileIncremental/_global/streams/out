@@ -1,0 +1,18 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 0 products, 0 sources, 0 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/SnakeFX.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/SnakeFX.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
+[0m[[0m[0mdebug[0m] [0m[0mall 1 sources are invalidated[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0 percent of all sources[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /mnt/c/Users/Marks-Desktop/Coding/scala-snake-game/target/scala-3.5.2/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: /home/barkmuckle/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.5.2/scala3-sbt-bridge-3.5.2.jar.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 60bb359 for Scala Compiler version 3.5.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/mnt/c/Users/Marks-Desktop/Coding/scala-snake-game/target/scala-3.5.2/classes:/home/barkmuckle/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.5.2/scala3-library_3-3.5.2.jar:/home/barkmuckle/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalafx/scalafx_3/16.0.0-R25/scalafx_3-16.0.0-R25.jar:/home/barkmuckle/.cache/coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/16/javafx-base-16-linux.jar:/home/barkmuckle/.cache/coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-controls/16/javafx-controls-16-linux.jar:/home/barkmuckle/.cache/coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-fxml/16/javafx-fxml-16-linux.jar:/home/barkmuckle/.cache/coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-graphics/16/javafx-graphics-16-linux.jar:/home/barkmuckle/.cache/coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-media/16/javafx-media-16-linux.jar:/home/barkmuckle/.cache/coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-swing/16/javafx-swing-16-linux.jar:/home/barkmuckle/.cache/coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-web/16/javafx-web-16-linux.jar:/home/barkmuckle/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.14/scala-library-2.13.14.jar:/home/barkmuckle/.cache/coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-graphics/16/javafx-graphics-16.jar:/home/barkmuckle/.cache/coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-controls/16/javafx-controls-16.jar:/home/barkmuckle/.cache/coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/16/javafx-base-16.jar:/home/barkmuckle/.cache/coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-media/16/javafx-media-16.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 3.683151562 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
